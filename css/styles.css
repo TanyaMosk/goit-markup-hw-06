@@ -507,6 +507,7 @@ body {
   display: flex;
   gap: 24px;
 }
+
 .subscribe-form-input{
   width: 264px;
   height: 40px; 
@@ -782,6 +783,9 @@ color:var(--title-text-color);
 
 .modal-form-field{
   margin-bottom: 8px;
+}
+.modal-form-field-message{
+  margin-bottom: 16px;
 }
 
 .modal-form-input-wrapper{

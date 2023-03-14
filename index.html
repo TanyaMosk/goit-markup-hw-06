@@ -405,15 +405,14 @@
         </div>
         <form class="subscribe-form">
         <p class="subscribe-title">Subscribe</p>
-        <span class="subscribe-form-input-wrapper">
-        <label class="subscribe-form-field">         
+        <span class="subscribe-form-input-wrapper">        
           <input 
-           type="email" 
+           type="email"            
            name="user_subscribe"
            class="subscribe-form-input"
+           aria-label="email-address"
            placeholder="E-mail"
-           autocapitalize="off">
-        </label>
+           autocapitalize="off">        
         <button class="subscribe-form-btn" type="submit">Subscribe
           <svg class="subscribe-form-icon" width="24" height="20">
             <use href="./images/symbol-defs.svg#icon-send"></use>
@@ -477,7 +476,7 @@
               </svg>
            </span>
           </label>          
-            <label class="modal-form-field">
+            <label class="modal-form-field-message">
             <span class="modal-form-input-desc">Comment</span>
             <textarea 
             name="user_message"       
